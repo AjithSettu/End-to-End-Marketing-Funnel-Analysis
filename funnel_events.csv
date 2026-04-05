@@ -1,0 +1,59 @@
+event_id,lead_id,event_type,event_date,notes
+1,1,mql,05-01-2024,Downloaded whitepaper
+2,1,sql,10-01-2024,Sales qualified after demo
+3,1,opportunity,15-01-2024,Proposal sent
+4,1,closed_won,01-02-2024,Deal closed
+5,2,mql,08-01-2024,Signed up for trial
+6,2,sql,14-01-2024,Sales follow-up done
+7,2,opportunity,20-01-2024,In negotiation
+8,3,mql,10-01-2024,Webinar attendee
+9,4,mql,12-01-2024,Clicked email CTA
+10,4,sql,18-01-2024,Qualified by BDR
+11,5,mql,14-01-2024,Downloaded case study
+12,6,mql,15-01-2024,Referral contact
+13,6,sql,20-01-2024,Demo scheduled
+14,6,opportunity,28-01-2024,Proposal sent
+15,6,closed_won,15-02-2024,Deal closed
+16,7,mql,16-01-2024,Paid search signup
+17,7,sql,22-01-2024,Sales called
+18,7,opportunity,30-01-2024,In review
+19,7,closed_lost,10-02-2024,Budget issue
+20,8,mql,18-01-2024,Email campaign click
+21,9,mql,20-01-2024,Free trial started
+22,9,sql,26-01-2024,Upsell opportunity
+23,10,mql,22-01-2024,Organic search landing
+24,11,mql,28-01-2024,Paid ad click
+25,11,sql,05-02-2024,Discovery call done
+26,11,opportunity,12-02-2024,Negotiating contract
+27,11,closed_won,01-03-2024,Deal closed
+28,12,mql,30-01-2024,Email drip response
+29,13,mql,02-02-2024,Referral demo request
+30,13,sql,08-02-2024,Technical evaluation
+31,13,opportunity,16-02-2024,Final proposal
+32,14,mql,05-02-2024,SEO landing page
+33,15,mql,08-02-2024,Social ad click
+34,15,sql,14-02-2024,Interest confirmed
+35,16,mql,10-02-2024,Paid search
+36,16,sql,16-02-2024,Qualified lead
+37,16,opportunity,22-02-2024,Sent pricing
+38,16,closed_won,10-03-2024,Contract signed
+39,17,mql,12-02-2024,Email click
+40,18,mql,15-02-2024,Organic traffic
+41,19,mql,16-02-2024,Social engagement
+42,19,sql,22-02-2024,Sales outreach
+43,20,mql,18-02-2024,Referral signup
+44,20,sql,25-02-2024,Demo completed
+45,20,opportunity,02-03-2024,Evaluation stage
+46,21,mql,20-02-2024,Paid ad signup
+47,22,mql,22-02-2024,Email response
+48,23,mql,24-02-2024,Organic blog
+49,24,mql,26-02-2024,Social media ad
+50,25,mql,28-02-2024,Referral contact
+51,25,sql,05-03-2024,Call scheduled
+52,26,mql,05-03-2024,Paid search
+53,27,mql,07-03-2024,Email campaign
+54,28,mql,09-03-2024,Organic search
+55,28,sql,15-03-2024,Qualified
+56,28,opportunity,20-03-2024,Proposal submitted
+57,29,mql,10-03-2024,Social media
+58,30,mql,12-03-2024,Referral

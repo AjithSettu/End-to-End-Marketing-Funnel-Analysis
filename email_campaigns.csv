@@ -1,0 +1,10 @@
+campaign_id,campaign_name,send_date,segment,emails_sent,emails_delivered,opens,clicks,unsubscribes,bounces
+C001,Q1 SaaS Nurture - Wave 1,05-01-2024,SaaS Leads,1200,1152,345,98,12,48
+C002,Q1 Ecommerce Promo,12-01-2024,Ecommerce Leads,850,816,220,64,8,34
+C003,Q1 FinTech Awareness,19-01-2024,FinTech Leads,600,582,189,52,5,18
+C001,Q1 SaaS Nurture - Wave 2,05-02-2024,SaaS Leads,1100,1067,312,88,10,33
+C002,Q1 Ecommerce Re-engage,12-02-2024,Ecommerce Leads,780,749,198,55,9,31
+C003,Q1 FinTech Product Update,19-02-2024,FinTech Leads,550,528,176,48,4,22
+C001,Q1 SaaS Nurture - Wave 3,05-03-2024,SaaS Leads,980,950,289,80,7,30
+C002,Q1 Ecommerce Flash Sale,12-03-2024,Ecommerce Leads,920,895,310,110,11,25
+C003,Q1 FinTech Case Study,19-03-2024,FinTech Leads,480,465,155,42,3,15
