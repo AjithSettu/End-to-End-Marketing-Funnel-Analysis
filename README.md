@@ -4,8 +4,8 @@
 
 This project demonstrates how SQL can be used to monitor and optimize a full B2B marketing funnel — from the moment a lead is captured to deal close. It covers the five analytical pillars most relevant to Marketing Analyst roles:
 
-| # | Analysis Area | File |
-|---|--------------|------|
+| # | Analysis Area |
+|---|--------------|
 | 1 | Schema & Sample Data |
 | 2 | Funnel Stage Conversion |
 | 3 | Email Campaign Performance |
