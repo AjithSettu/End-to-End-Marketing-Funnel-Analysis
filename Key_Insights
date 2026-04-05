@@ -1,0 +1,87 @@
+# Key Insights & Business Recommendations
+
+## Project: End-to-End Marketing Funnel Analysis
+**Author:** Ajith_Settu | **Period:** Q1 2024 |
+
+
+## 1. Funnel Health Overview
+
+| Stage             | Count | Conversion Rate |
+|-------------------|-------|-----------------|
+| Total Leads       | 30    | —               |
+| MQL               | 28    | 93.3%           |
+| SQL               | 15    | 53.6%           |
+| Opportunity       | 9     | 60.0%           |
+| Closed Won        | 5     | 55.6%           |
+| **Overall Win Rate** | **5** | **16.7%**   |
+
+**Key Insight:** The biggest drop-off is at the MQL → SQL stage (53.6%), indicating that while marketing is generating strong top-of-funnel volume, sales qualification is filtering out nearly half. This could reflect targeting quality or BDR capacity issues.
+
+
+## 2. Best Performing Lead Sources
+
+| Source          | Win Rate |
+|-----------------|----------|
+| Referral        | 33.3%    |
+| Paid Search     | 25.0%    |
+| Organic Search  | 12.5%    |
+| Email           | 0%       |
+| Social Media    | 0%       |
+
+**Recommendation:** Double down on referral programs and paid search. Email and social media generate volume but show lower funnel progression — review nurture sequences for these segments.
+
+
+## 3. Email Campaign Performance
+
+| Segment         | Open Rate | CTR   | Bounce Rate |
+|-----------------|-----------|-------|-------------|
+| SaaS Leads      | ~30%      | 8.5%  | 4.1%        |
+| Ecommerce Leads | ~27%      | 7.9%  | 4.1%        |
+| FinTech Leads   | ~33%      | 9.0%  | 3.1%        |
+
+**Key Insight:** FinTech segment shows the highest open and click rates despite smaller send volume — a signal of strong audience relevance. SaaS Nurture Wave 3 shows declining CTR vs Wave 1, suggesting content fatigue.
+
+**Recommendation:** A/B test FinTech-style subject lines on SaaS campaigns. Refresh content for Wave 3+ sends to reduce engagement decay.
+
+
+## 4. Sales Cycle Velocity
+
+| Stage Transition     | Avg Days |
+|----------------------|----------|
+| MQL → SQL            | ~6 days  |
+| SQL → Opportunity    | ~8 days  |
+| Opportunity → Close  | ~17 days |
+| **Total Cycle**      | **~31 days** |
+
+**Key Insight:** The Opportunity → Close stage takes the longest. This is a negotiation/decision-making bottleneck. Referral leads close ~20% faster than cold inbound.
+
+**Recommendation:** Introduce automated follow-up sequences for opportunities open > 14 days to reduce stall time.
+
+
+## 5. Cohort Performance
+
+| Cohort     | Size | Win Rate |
+|------------|------|----------|
+| 2024-01    | 15   | 20.0%    |
+| 2024-02    | 10   | 10.0%    |
+| 2024-03    | 5    | 0% (too early) |
+
+**Key Insight:** January cohort performs best — aligns with strong Q1 campaign launches. March cohort is too recent to show wins (longer sales cycle expected).
+
+
+## 6. Stalled Leads in Pipeline
+
+Several leads with active funnel stages (MQL/SQL/Opportunity) show no activity in 14+ days. These represent revenue at risk and candidates for re-engagement campaigns.
+
+**Recommendation:** Build an automated weekly SQL report to flag stalled leads for BDR re-outreach or marketing nurture re-entry.
+
+
+## Tools & Skills Demonstrated
+
+- **Window Functions:** `FIRST_VALUE()`, `OVER (PARTITION BY ... ORDER BY ...)`
+- **CTEs:** Used across all queries for readable, layered logic
+- **Conditional Aggregation:** `CASE WHEN ... THEN ... END` inside `COUNT/SUM`
+- **Date Math:** `JULIANDAY()` for stage velocity calculations
+- **NULLIF:** Safe division to prevent divide-by-zero errors
+- **JOINs:** LEFT JOIN for funnel inclusion, INNER JOIN for conversion-only views
+- **Business Metrics:** CTR, open rate, CTOR, bounce rate, MQL/SQL/win rates, cohort analysis
