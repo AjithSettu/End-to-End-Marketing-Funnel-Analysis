@@ -109,4 +109,4 @@ emails_sent / emails_delivered / opens / clicks / unsubscribes / bounces
 
 Built by **Ajith_Settu** — Marketing Analytics professional with 7+ years of experience in lead generation, campaign analytics, customer segmentation, A/B testing, and SQL-driven insights across B2B marketing environments.
 
-**Tools:** SQL (MySQL,Oracle) · Excel · Power BI
+**Tools:** SQL (MySQL) · Excel · Power BI
